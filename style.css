@@ -1,0 +1,213 @@
+/* font styling */
+*{
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Roboto', sans-serif;
+}
+*{
+    margin: 0px;
+}
+h1{
+    font-size: 2rem;
+}
+p{
+    font-size: 1.5rem;
+}
+/* Top and Navigation banner */
+li{
+list-style: none;
+}
+.top-banner{
+    background-color: palevioletred;
+    text-align: center;
+    background-image: url(./assets/asset\ 32.png);
+    background-size: 300px;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.logo img{
+    width: 300px;
+}
+.top-banner p{
+    padding: 12px;
+}
+.menu-bar{
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.flex{
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+.text{
+    justify-content: space-evenly;
+    gap: 40px;
+    margin: 20px;
+}
+.sign-in{
+    padding: 12px 24px;
+    background-color:#2294ed;
+    border-radius: 6px;
+}
+.sign-out{
+    padding: 12px 24px;
+    border: 3px solid gray;
+    border-radius: 6px;
+}
+/* middle Banner */
+.middle-banner{
+    gap: 40px;
+}
+.box{
+    margin-top: 50px;
+    flex-direction: column;
+    justify-content: center !important;
+    gap: 30px;
+}
+.paragraph>li{
+    margin: 10px;
+}
+
+/* Company Logo */
+.company-logo{
+    margin-top: 20px;
+    gap: 10px;
+}
+.logo-container{
+    margin-top: 90px;
+}
+.company{
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+/* feature */
+.features-text{
+    margin-top: 40px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.features-lower-box{
+    background-image: url(./assets/asset\ 34.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.features-lower-box a{
+    text-decoration: none;
+}
+.feature-content{
+    margin-top: 40px;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.feature-content img{
+    width: 50px;
+    height: 50px;
+}
+
+/* heros */
+.hero{
+    margin: 50px 0px;
+    gap: 50px;
+}
+.hero-text{
+    margin-top: 40px;
+    flex-direction: column;
+    gap: 20px;
+}
+.hero-text1{
+    background-image: url(./assets/asset\ 35.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.hero-text p{
+    margin-left: 20px;
+}
+.person{
+    margin-top: 10px;
+    gap: 10px;
+}
+.person-info{
+    flex-direction: column;
+}
+/* photo collage */
+.upper-text{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.lower-text{
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+    
+}
+.lower-text #photo1{
+    background-image: url(./assets/asset\ 36.jpeg);
+    border-radius: 10px;
+}
+.lower-text #photo2{
+    border-radius: 10px;
+    background-image: url(./assets/asset\ 37.jpeg);
+}
+.lower-text #photo3{
+    border-radius: 10px;
+    background-image: url(./assets/asset\ 38.jpeg);
+}
+.lower-text #photo4{
+    border-radius: 10px;
+    background-image: url(./assets/asset\ 39.jpeg);
+}
+.lower-text p{
+    margin-top: 80%;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: whitesmoke;
+}
+
+/* second hero */
+.back-color{
+    background-color: #183b54;
+}
+.left-bar{
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.list li{
+    padding: 10px;
+    list-style:circle!important;
+}
+.hero-bottom{
+    gap: 20px;
+    align-items: center;
+}
+.hero-bottom a{
+    color: white;
+}
+.lowest-row{
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.footer{
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 0px;
+}
+.social-logo{
+  gap: 20px;
+}
